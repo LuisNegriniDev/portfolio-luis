@@ -6,7 +6,7 @@ Meu portfólio pessoal, desenvolvido para apresentar minha trajetória como estu
 
 ## 📸 Prévia
 
-![Capa do portfólio](assets/readme/capa.png)
+<img width="1804" height="902" alt="image" src="https://github.com/user-attachments/assets/7c8e589e-464f-4d51-9fbf-3d42d21cec6f" />
 
 ## 🛠️ Tecnologias
 
