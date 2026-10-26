@@ -1,0 +1,36 @@
+LUIS.DEV — PORTFÓLIO
+====================
+
+Projeto estático feito com HTML, CSS e JavaScript puro.
+
+COMO ABRIR
+1. Extraia o ZIP e abra esta pasta no VS Code.
+2. Abra index.html no navegador ou use a extensão Live Server.
+
+ARQUIVOS
+- index.html: conteúdo, projetos, navegação e links.
+- style.css: tema visual, responsividade, cartões e animações.
+- script.js: menu, filtros, detalhes dos estudos de caso, tema e contatos.
+- assets/foto-luis.jpg: imagem usada na apresentação pessoal.
+
+LINKS CONFIGURADOS
+- LinkedIn: https://www.linkedin.com/in/luis-gustavo-negrini-muniz-10b662394/
+- GitHub: https://github.com/LuisNegriniDev
+- TechShop (código): https://github.com/LuisNegriniDev/techshop-web
+- Evolution (código e README): https://github.com/LuisNegriniDev/Evolution
+- TaskFlow (código e capturas): https://github.com/LuisNegriniDev/taskflow
+
+PROJETOS EM DESTAQUE
+1. TechShop: catálogo de produtos acadêmico feito com HTML5 e CSS3.
+2. Evolution: rastreador de hábitos gamificado com XP e sistema de níveis, feito com HTML, CSS e JavaScript. Os botões adicionam 10 XP por clique e a progressão de nível ocorre aos 100 XP. O progresso não fica salvo após recarregar a página na versão atual.
+3. TaskFlow: aplicação de tarefas que permite adicionar, concluir e excluir tarefas, com salvamento local via LocalStorage.
+
+ANTES DE ENTREGAR OU PUBLICAR
+1. EMAIL: ainda não foi informado. Abra script.js, no objeto PROFILE, e substitua SEU_EMAIL_AQUI por um endereço que você queira divulgar. Enquanto isso, os botões de e-mail ficam desativados.
+2. DEMOS: os repositórios de TechShop, Evolution e TaskFlow foram fornecidos, mas nenhum endereço de demonstração ao vivo foi informado para esses projetos. A página indica isso sem inventar links.
+3. VISUAIS: as artes dos cartões são ilustrações para representar as interfaces, não capturas reais. O README do TaskFlow contém capturas do projeto.
+4. HABILIDADES: revise as tecnologias e os níveis visuais da seção de habilidades para representar fielmente seu conhecimento atual.
+5. TESTES: confira todos os links, os filtros, o menu em celular, o tema, os estudos de caso e os estados dos botões de contato.
+
+PUBLICAÇÃO
+Para publicar este portfólio, você pode usar GitHub Pages ou outro serviço de hospedagem estática. Os endereços de demonstração dos projetos devem ser adicionados apenas quando forem publicados e testados.
