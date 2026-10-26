@@ -1,6 +1,3 @@
-/* PERSONALIZE AQUI ANTES DE PUBLICAR.
-   Use somente links e informações verdadeiros.
-*/
 const PROFILE = {
   email: "SEU_EMAIL_AQUI",
   github: "https://github.com/LuisNegriniDev",
@@ -26,15 +23,11 @@ if (menuButton && navigation) {
     });
   });
 }
-
-// Ano automático no rodapé e na apresentação.
 const currentYear = new Date().getFullYear();
 const year = document.querySelector('#year');
 const heroYear = document.querySelector('#hero-year');
 if (year) year.textContent = currentYear;
 if (heroYear) heroYear.textContent = currentYear;
-
-// Tema alternativo, sem depender de bibliotecas externas.
 const themeButton = document.querySelector('.theme-toggle');
 if (themeButton) {
   themeButton.addEventListener('click', () => {
@@ -44,8 +37,6 @@ if (themeButton) {
     themeButton.title = enabled ? 'Voltar ao tema original' : 'Alternar tema';
   });
 }
-
-// Filtro de projetos.
 const filterButtons = document.querySelectorAll('.filter-button');
 const projectCards = document.querySelectorAll('.project-card[data-category]');
 filterButtons.forEach((button) => {
@@ -61,8 +52,6 @@ filterButtons.forEach((button) => {
     });
   });
 });
-
-// Estudos de caso abertos em uma janela acessível.
 const cases = {
   techshop: {
     number: 'PROJECT / 001',
@@ -117,8 +106,6 @@ if (dialog) {
     if (event.target === dialog) dialog.close();
   });
 }
-
-// Liga os contatos ao perfil definido no começo deste arquivo.
 const emailLink = document.querySelector('#email-link');
 const copyEmailButton = document.querySelector('#copy-email');
 const githubLink = document.querySelector('#github-link');
@@ -164,8 +151,6 @@ if (copyEmailButton) {
     }
   });
 }
-
-// Pequena entrada suave de elementos quando suportada pelo navegador.
 const revealTargets = document.querySelectorAll('.about-facts article, .skill, .project-card, .process-grid article, .timeline-item');
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   revealTargets.forEach((element) => element.classList.add('reveal-ready'));
