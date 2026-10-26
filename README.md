@@ -15,28 +15,6 @@ Meu portfólio pessoal, desenvolvido para apresentar minha trajetória como estu
 - JavaScript
 - Git e GitHub
 
-## 🚀 Projetos
-
-### TechShop
-Catálogo de produtos desenvolvido para a disciplina de Programação para Internet, utilizando HTML e CSS.
-
-🔗 [Ver código](https://github.com/LuisNegriniDev/techshop-web)
-
-![TechShop](assets/readme/techshop.png)
-
-### Evolution
-Rastreador de hábitos com elementos de RPG, sistema de XP e progressão de níveis.
-
-🔗 [Ver código](https://github.com/LuisNegriniDev/Evolution)
-
-![Evolution](assets/readme/evolution.png)
-
-### TaskFlow
-Aplicação para organizar tarefas, marcar atividades como concluídas e salvar os dados no navegador.
-
-🔗 [Ver código](https://github.com/LuisNegriniDev/taskflow)
-
-![TaskFlow](assets/readme/taskflow.png)
 
 ## ✨ Funcionalidades do portfólio
 
