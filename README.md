@@ -4,6 +4,8 @@ Portfólio de Luis Gustavo com projetos web, estudos de caso e formas de contato
 
 🌐 **Site:** [luisnegrinidev.github.io/portfolio-luis](https://luisnegrinidev.github.io/portfolio-luis/)
 
+<img width="1893" height="943" alt="image" src="https://github.com/user-attachments/assets/e958f06a-ba28-4f30-94a2-e4ef29326964" />
+
 ## Projetos em destaque
 
 - **TechShop:** catálogo de produtos com HTML e CSS, desenvolvido para a disciplina de Programação para Internet.
