@@ -1,34 +1,28 @@
-# Luis.dev — Portfólio Pessoal
+# Luis.dev — Portfólio pessoal
 
-Meu portfólio pessoal, desenvolvido para apresentar minha trajetória como estudante de Engenharia da Computação na **Uningá**, meus conhecimentos e os projetos que venho desenvolvendo.
+Portfólio de Luis Gustavo com projetos web, estudos de caso e formas de contato.
 
-🌐 **Acesse o site:** [Luis.dev](https://luisnegrinidev.github.io/portfolio-luis/)
+🌐 **Site:** [luisnegrinidev.github.io/portfolio-luis](https://luisnegrinidev.github.io/portfolio-luis/)
 
-## 📸 Prévia
+## Projetos em destaque
 
-<img width="1804" height="902" alt="image" src="https://github.com/user-attachments/assets/7c8e589e-464f-4d51-9fbf-3d42d21cec6f" />
+- **TechShop:** catálogo de produtos com HTML e CSS, desenvolvido para a disciplina de Programação para Internet.
+- **Evolution:** rastreador de hábitos com XP e níveis, feito com HTML, CSS e JavaScript.
+- **TaskFlow:** lista de tarefas com ações para adicionar, concluir e excluir itens, salvando os dados no navegador com LocalStorage.
 
-## 🛠️ Tecnologias
+Os estudos de caso e links para os repositórios estão disponíveis no site.
 
-- HTML5
-- CSS3
-- JavaScript
-- Git e GitHub
+## Versão 1.2
 
+Conteúdo mais direto, projetos em destaque, visual refinado e botão funcional para copiar o e-mail.
 
-## ✨ Funcionalidades do portfólio
+## Tecnologias do portfólio
 
-- Layout responsivo
-- Alternância de tema
-- Filtros de projetos
-- Detalhes interativos dos projetos
-- Links para meus perfis profissionais
+- HTML5, CSS3 e JavaScript
+- Layout responsivo e alternância de tema
+- Filtros de projetos e diálogos com detalhes
 
-## 📬 Contato
+## Contato
 
 - **GitHub:** [LuisNegriniDev](https://github.com/LuisNegriniDev)
 - **LinkedIn:** [Luis Gustavo Negrini Muniz](https://www.linkedin.com/in/luis-gustavo-negrini-muniz-10b662394/)
-
----
-
-Desenvolvido por **Luis Gustavo** como parte da minha jornada na Engenharia da Computação.
