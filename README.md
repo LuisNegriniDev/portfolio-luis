@@ -1,30 +1,46 @@
-# Luis.dev — Portfólio pessoal
+# Luis.dev — Portfólio Pessoal
 
-Portfólio de Luis Gustavo com projetos web, estudos de caso e formas de contato.
+Portfólio de Luis Gustavo, estudante de Engenharia da Computação e desenvolvedor em formação.
 
-🌐 **Site:** [luisnegrinidev.github.io/portfolio-luis](https://luisnegrinidev.github.io/portfolio-luis/)
-
-<img width="1893" height="943" alt="image" src="https://github.com/user-attachments/assets/e958f06a-ba28-4f30-94a2-e4ef29326964" />
+🌐 **Acesse o portfólio:** https://luisnegrinidev.github.io/portfolio-luis/
 
 ## Projetos em destaque
 
-- **TechShop:** catálogo de produtos com HTML e CSS, desenvolvido para a disciplina de Programação para Internet.
-- **Evolution:** rastreador de hábitos com XP e níveis, feito com HTML, CSS e JavaScript.
-- **TaskFlow:** lista de tarefas com ações para adicionar, concluir e excluir itens, salvando os dados no navegador com LocalStorage.
+### TechShop
+Catálogo virtual desenvolvido para a disciplina de Programação para Internet, utilizando HTML e CSS.
 
-Os estudos de caso e links para os repositórios estão disponíveis no site.
+- Repositório: https://github.com/LuisNegriniDev/techshop-web
 
-## Versão 1.2
+### Evolution
+Rastreador de hábitos com mecânicas de XP e níveis, inspirado em elementos de RPG.
 
-Conteúdo mais direto, projetos em destaque, visual refinado e botão funcional para copiar o e-mail.
+- Tecnologias: HTML, CSS e JavaScript.
+- Repositório: https://github.com/LuisNegriniDev/Evolution
 
-## Tecnologias do portfólio
+### TaskFlow
+Aplicação web para organização de tarefas, com funcionalidades para adicionar, concluir e excluir atividades.
 
-- HTML5, CSS3 e JavaScript
-- Layout responsivo e alternância de tema
-- Filtros de projetos e diálogos com detalhes
+- Tecnologias: HTML, CSS e JavaScript.
+- Armazenamento local com LocalStorage.
+- Repositório: https://github.com/LuisNegriniDev/taskflow
+
+## Tecnologias utilizadas no portfólio
+
+- HTML5
+- CSS3
+- JavaScript
+- Layout responsivo
+- Alternância entre tema claro e escuro
+- Animações e interações
+- Filtros de projetos
+- Estudos de caso interativos
 
 ## Contato
 
-- **GitHub:** [LuisNegriniDev](https://github.com/LuisNegriniDev)
-- **LinkedIn:** [Luis Gustavo Negrini Muniz](https://www.linkedin.com/in/luis-gustavo-negrini-muniz-10b662394/)
+- **GitHub:** https://github.com/LuisNegriniDev
+- **LinkedIn:** https://www.linkedin.com/in/luis-gustavo-negrini-muniz-10b662394/
+- **E-mail:** gunegrini10@gmail.com
+
+---
+
+Desenvolvido por Luis Gustavo.
