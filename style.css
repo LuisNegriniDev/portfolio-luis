@@ -587,6 +587,9 @@ img { max-width: 100%; }
 .command-palette { width: min(620px, calc(100% - 28px)); max-height: min(70vh, 640px); margin: 15vh auto auto; padding: 0; border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); box-shadow: var(--shadow-panel, 0 30px 100px #0009); }
 .command-palette::backdrop { background: #050508bd; backdrop-filter: blur(8px); }.palette-search { display: flex; align-items: center; gap: 14px; padding: 20px; border-bottom: 1px solid var(--border); color: var(--accent-soft); }.palette-search input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--text); font: 1rem var(--font); }.palette-search kbd { color: var(--soft); font: .52rem var(--mono); }.palette-caption { padding: 0 20px; color: var(--soft); font: .5rem var(--mono); }.palette-options { max-height: 45vh; overflow: auto; padding: 0 10px 12px; }.palette-option { display: flex; width: 100%; justify-content: space-between; gap: 12px; padding: 12px; border: 0; background: transparent; color: var(--muted); text-align: left; cursor: pointer; }.palette-option small { color: var(--soft); }.palette-option.is-selected,.palette-option:hover { background: var(--raised); color: var(--accent-soft); }.palette-empty { padding: 16px; color: var(--muted); }.command-palette footer { display: flex; gap: 18px; padding: 12px 18px; border-top: 1px solid var(--border); color: var(--soft); font: .5rem var(--mono); }
 .contact-content h2 { font-size: clamp(4rem, 8vw, 8rem); letter-spacing: -.09em; }
+@media (max-width: 400px) {
+  .contact-content h2 { font-size: clamp(3.2rem, 13.5vw, 4rem); }
+}
 @media (min-width: 821px) {
   .skills-layout { grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr); }
   .skills-list { grid-column: 1; grid-row: 1 / span 2; }
@@ -595,13 +598,13 @@ img { max-width: 100%; }
   .tools-card { grid-row: 2; }
 }
 @media (max-width: 820px) {
-  .hero h1 { font-size: clamp(4rem, 10vw, 6rem); }
+  .hero h1 { max-width: 100%; font-size: clamp(2.35rem, 7vw, 3.6rem); }
   .skills-layout { grid-template-columns: minmax(0, 1fr); gap: 22px; }
   .skills-list, .tech-detail, .tools-card { grid-column: 1; grid-row: auto; width: 100%; min-width: 0; }
   .tools-card { min-height: 0; }
   .project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-@media (max-width: 600px) { .palette-trigger { padding: 8px; }.palette-trigger span { font-size: 0; }.palette-trigger span::after { content: "⌕"; font-size: 1rem; }.hero h1 { font-size: clamp(3.5rem, 15vw, 5rem); }.command-palette { margin-top: 10vh; }.command-palette footer { justify-content: space-between; gap: 5px; font-size: .43rem; } }
+@media (max-width: 600px) { .palette-trigger { padding: 8px; }.palette-trigger span { font-size: 0; }.palette-trigger span::after { content: "⌕"; font-size: 1rem; }.hero h1 { max-width: 100%; font-size: clamp(3rem, 13vw, 5rem); }.command-palette { margin-top: 10vh; }.command-palette footer { justify-content: space-between; gap: 5px; font-size: .43rem; } }
 @media (prefers-reduced-motion: reduce) { .hero::after { animation: none; } }
 
 .tech-detail { align-self: stretch; display: flex; flex-direction: column; justify-content: center; min-height: 245px; padding: clamp(22px, 3vw, 36px); border: 1px solid var(--border); background: var(--surface); }
@@ -609,8 +612,19 @@ img { max-width: 100%; }
 .tech-detail h3 { margin: 24px 0 8px; font-size: clamp(1.5rem, 3vw, 2.25rem); letter-spacing: -.055em; }
 .tech-detail p { color: var(--muted); font-size: .78rem; line-height: 1.75; }
 @media (max-width: 820px) {
-  .tech-detail { padding: clamp(18px, 4vw, 26px); }
-  .tech-detail h3, .tech-detail p { max-width: 100%; overflow-wrap: anywhere; }
+  .tech-detail {
+    width: 100%;
+    min-width: 0;
+    padding: clamp(18px, 4vw, 26px);
+  }
+
+  .tech-detail h3,
+  .tech-detail p {
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
 }
 .tech-project-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .tech-project-links a { padding: 8px 10px; border: 1px solid var(--border); color: var(--accent-soft); font-size: .63rem; }
